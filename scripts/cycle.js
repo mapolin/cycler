@@ -16,5 +16,5 @@ $.fn.cycle = function(animTime, waitTime) {
         setTimeout(swap, waitTime);
     };
 
-    swap();
+    setTimeout(swap, waitTime);
 };
